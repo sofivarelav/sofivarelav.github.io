@@ -30,6 +30,7 @@ h1{
 p{
 	font-family: "Nunito", sans-serif;
 	color: white;
+	font-size: 2vh;
 }
 main{
 	font-family: "Bright DEMO", serif;
@@ -219,6 +220,13 @@ a {
 
 .img-mix{
 	padding: 1vw;
+}
+.img-mix-main{
+	text-align: center;
+	padding: 5vw;
+}
+.mix-menu{
+	text-align: center;
 }
 
 
