@@ -235,4 +235,54 @@ a {
 	text-align: center;
 }
 
+/* CONTACT PAGE*/
+
+.title-contact{
+	margin: 5vh;
+	font-size: 5vw;
+}
+
+des{
+	font-family: "Nunito", sans-serif;
+	color: white;
+	font-size: 2vh;
+	padding-left: 1vw;
+}
+
+.box-contacto{
+	background-color: rgba(255,255,255,.25);
+	margin: 3vw;
+	padding: 2vw;
+	border-radius: 50px;
+	text-align: center;
+}
+
+.form-floating{
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+}
+
+.btn btn-outline-light btn-lg{
+	margin: 1vw;
+}
+
+.fas fa-paper-plane{
+	padding-right: 1vw;
+}
+
+.btn{
+	font-family: "Nunito", sans-serif;
+	color: white;
+}
+
+.form-floating{
+	background-color: rgba(255,255,255,.25);
+}
+
+input{
+	font-family: "Nunito", sans-serif;
+	color: white;
+}
+
+
 

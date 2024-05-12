@@ -8,6 +8,10 @@
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://kit.fontawesome.com/1b9c80995a.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -34,11 +38,61 @@
 <div class="container">
 	<div class="row">
 		<div class="col-6">
-			<h1>Contactanos</h1>
+			<h1 style="color: white" class="title-contact">Contactanos</h1>
+				<div class="info-wrapper js-info-wrapper">
+					<ul class="overview text-white">
+						<li class="overview-item text-white">
+							<span class="icon"><i class="fas fa-envelope fa-2x"></i></span>
+							<span class="label text-white"><des>contacto@sofisdrinks.com</des></span>
+						</li>
+						<li class="overview-item">
+							<span class="icon"><img src="img/WAVector.svg"></span>
+							<span class="label"> <des>+506 8888 9999</des></span>
+						</li>
+						<li class="overview-item">
+							<span class="icon"><i class="fas fa-building fa-2x"></i></span>
+							<span class="label"><des>Avenida 48, Barrio Refrescante, San José, Costa Rica</des></span>
+						</li>
+					</ul>
+				</div>
 		</div>
+		<div class="col-6">
+			<div class="box-contacto">
+				<p style="text-align: left;">Razón de contacto</p>
+				<div class="d-grid gap-2">
+				  <div class="btn-group">
+				  <button class="btn btn-outline-light btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+				    Sugerencias
+				  </button>
+				  <ul class="dropdown-menu">
+				    <li><a class="dropdown-item" href="#">Problemas con el producto</a></li>
+				    <li><a class="dropdown-item" href="#">Trabajo</a></li>
+				    <li><a class="dropdown-item" href="#">Otros</a></li>				  
+				</ul>
+				</div>
+				</div>
+				
 		
+				<div class="form-floating mb-3">
+				  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+				  <label for="floatingInput">Nombre</label>
+				</div>
+				<div class="form-floating">
+				  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+				  <label for="floatingPassword">Correo electrónico</label>
+				</div>
+				<div class="form-floating">
+				  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+				  <label for="floatingTextarea2">Comentarios</label>
+				</div>
+				<div><button type="button" class="btn btn-outline-light btn-lg"> <span class="icon"><i class="fas fa-paper-plane"></i></span>   Envía tu mensaje</button></div>
+				
+			</div>
+			
+		</div>
 	</div>
 </div>
+
 	<div class="container">
 			<footer class="row row-cols-5 py-5 my-5 border-top">
 		<div class="col">
