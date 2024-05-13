@@ -30,7 +30,7 @@ h1{
 p{
 	font-family: "Nunito", sans-serif;
 	color: white;
-	font-size: 2vh;
+	font-size: 2.5vh;
 }
 main{
 	font-family: "Bright DEMO", serif;
@@ -93,6 +93,7 @@ des-title{
 
 .menu-img1{
 	padding: 3vw;
+	transition: transform .2s;
 }
 
 .nuestrahistoria{
@@ -211,6 +212,7 @@ ul {
 }
 a {
 	text-decoration: none;
+	color: none;
 }
 .box-img-product{
 	width: 3vw;
@@ -219,13 +221,21 @@ a {
 	margin: 5vw;
 	background-color: white;
 	border-radius: 50px;
+	transition: transform .2s;
 
+}
+
+li{
+	list-style-type: none;
+	text-decoration: none;
+	color: none;
 }
 
 /*MIXOLOGY*/
 
 .img-mix{
 	padding: 1vw;
+	transition: transform .5s ;
 }
 .img-mix-main{
 	text-align: center;
@@ -350,4 +360,41 @@ label{
 .line4{
 	padding: 1vh 0vw 1vh 4vw;
 }
+
+a.nav-link:link
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.nav-link:visited
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: #000000;
+   text-decoration: none;
+}
+a.nav-link:active
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+.zoom {
+   /* Animation */
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+.menu-img1:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.img-mix:hover{
+	transform: scale(0.75);
+}
+
 
