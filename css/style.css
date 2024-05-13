@@ -277,13 +277,37 @@ des{
 }
 
 .form-floating{
+	background-color: rgba(255,255,255,.00);
+}
+.form-control{
 	background-color: rgba(255,255,255,.25);
+	border-width: 2px;
 }
 
 input{
 	font-family: "Nunito", sans-serif;
 	color: white;
 }
+label{
+	font-family: "Nunito", sans-serif;
+	color: white;
+	font-size: 1vw;
+}
 
+
+/*Nuestra Historia*/
+
+.part1{
+	padding-top: 5vh;
+}
+
+.part1-historia{
+	padding-top: 7vh;
+	padding-right: 7vw;
+}
+
+.line1{
+	text-align: right;
+}
 
 
