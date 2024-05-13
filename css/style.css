@@ -56,6 +56,7 @@ des-title{
 }
 .welcome-text{
 	margin-top: 4vw;
+	margin-left: 4vw;
 }
 
 .box-menu{
@@ -77,13 +78,13 @@ des-title{
 
 .box-img1{
 	text-align: center;
-	margin: 0vw;
+	margin-left: 2.5vw;
 	padding-bottom: 2vw;
 }
 
 .menu-bebidas{
 	background-color: white;
-	margin:0vw;
+	margin:2vw;
 	border-radius: 50px;
 
 }
@@ -204,7 +205,7 @@ des-title{
 
 .img-product{
 	width: 25vw;
-	margin-top: 4vh;
+	margin-top: ;
 }
 
 ul {
@@ -227,7 +228,7 @@ a {
 	width: 3vw;
 }
 .menu-bebidas-product-page{
-	margin: 5vw;
+	margin: 8vw;
 	background-color: white;
 	border-radius: 50px;
 	transition: transform .2s;
